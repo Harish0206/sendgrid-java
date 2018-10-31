@@ -1,0 +1,8 @@
+static void printElement(int i) {
+ 
+   if (i >= a.length) {
+	   throw new ArrayIndexOutOfBoundsException("Access element " + (i + 1) + " of an array of length " + a.length);
+   }
+ 
+   System.out.println("The 5th element is :" + a[i]);
+}
